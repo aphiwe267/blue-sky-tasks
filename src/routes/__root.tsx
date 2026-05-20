@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "blue sky" },
+      { name: "description", content: "Blue Sky Tasks is a modern, minimal task manager for organizing your to-dos." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "blue sky" },
+      { property: "og:description", content: "Blue Sky Tasks is a modern, minimal task manager for organizing your to-dos." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "blue sky" },
+      { name: "twitter:description", content: "Blue Sky Tasks is a modern, minimal task manager for organizing your to-dos." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1ad64337-5e43-44d1-9f21-ed0136c1395f/id-preview-3d865b44--8365b29b-3a83-42c2-b1cc-3c949e0b82af.lovable.app-1779262168431.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1ad64337-5e43-44d1-9f21-ed0136c1395f/id-preview-3d865b44--8365b29b-3a83-42c2-b1cc-3c949e0b82af.lovable.app-1779262168431.png" },
     ],
     links: [
       {
